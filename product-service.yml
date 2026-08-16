@@ -7,7 +7,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://<av70951_db_user>:oNEwGF6TGmHJMLyi@cluster0.jpu5ii9.mongodb.net/?appName=Cluster0
+      uri: mongodb+srv://av70951_db_user:oNEwGF6TGmHJMLyi@cluster0.jpu5ii9.mongodb.net/flipkart_product_db?retryWrites=true&w=majority&appName=Cluster0
       database: flipkart_product_db
 
   redis:
